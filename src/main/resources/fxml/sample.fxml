@@ -1,0 +1,20 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<GridPane fx:controller="com.qqw.comtroller.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" styleClass="root">
+    <stylesheets>
+        <URL value="@../css/main.css"/>
+    </stylesheets>
+    <Label text="User Name:" style="-fx-font-weight: bold;"
+           GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <Button onAction="#handleSubmitButtonAction" fx:id="attack" text="100" style="-fx-font-weight: bold;"  GridPane.columnIndex="1" GridPane.rowIndex="1">
+
+    </Button>
+    <AnchorPane styleClass="root"></AnchorPane>
+</GridPane>
