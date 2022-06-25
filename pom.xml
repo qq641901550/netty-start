@@ -45,7 +45,7 @@
         <!--<mongodb.version>3.0.2</mongodb.version>-->
         <!--<spring_mongodb.version>1.8.0.RELEASE</spring_mongodb.version>-->
         <mongodb.version>LATEST</mongodb.version>
-        <spring_mongodb.version>LATEST</spring_mongodb.version>
+        <spring_mongodb.version>3.3.5</spring_mongodb.version>
     </properties>
     <dependencies>
         <dependency>
