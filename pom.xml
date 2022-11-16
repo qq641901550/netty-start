@@ -39,7 +39,7 @@
     </build>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.jackson.core>2.6.3</version.jackson.core>
+        <version.jackson.core>2.12.7.1</version.jackson.core>
         <protostuff.version>1.0.7</protostuff.version>
         <!--<mongodb.version>2.13.0-rc0</mongodb.version>-->
         <!--<mongodb.version>3.0.2</mongodb.version>-->
